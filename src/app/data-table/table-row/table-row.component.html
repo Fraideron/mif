@@ -1,0 +1,17 @@
+<div class="row" *ngIf='type === "itunes"'>
+  <img class='album__pic' src={{row.artworkUrl60}} alt="">
+  <div class="main_info">
+      <span class="collection__pic">{{row.artistName}}</span>
+      <span class="collection__name">{{row.collectionName}}</span>
+      <a target="_blank" href={{row.collectionViewUrl}}>see</a>
+  </div>
+</div>
+
+<div class="row" *ngIf='type === "deezer"'>
+    <img class='album__pic' src={{row.cover_medium}} alt="">
+    <div class="main_info">
+        <span class="collection__pic">{{row.artist.name}}</span>
+        <span class="collection__name">{{row.title}}</span>
+        <a target="_blank" href={{row.link}}>see</a>
+    </div>
+</div>

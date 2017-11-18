@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.row {
+    display: flex; 
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+}
+
+.row:hover {
+    background-color: aliceblue;
+}
+
+.main_info {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.main_info>span {
+    width: 100px
+}
+
+.collection__name {
+    font-weight: bold;
+    
+}
+
+.album__pic {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    font-style: italic;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: black;
+    text-decoration: line-through;    
+}

@@ -1,0 +1,51 @@
+
+body, html {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+header {
+    padding: 10px;
+    background-color: #5482ce;    
+    border-bottom: solid 2px white;
+    
+}
+
+header>i {
+    padding: 5px;
+    color: white;
+    
+}
+
+header>input {
+    padding: 10px;
+    width: 80%;
+    border: none;
+    background-color: #5482ce;
+    color: white;    
+}
+
+input::placeholder {
+    color: white;
+}
+
+
+header>input:focus {
+    outline: none;
+}
+
+.results{
+    display: flex;
+    background: #5482ce; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(to bottom, #5482ce , #78acff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(to bottom, #5482ce, #78acff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(to bottom, #5482ce, #78acff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom, #5482ce , #78acff);
+}
+
+.results>app-table {
+    flex: 1;   
+} 
+
+
+app-table {    
+    margin-left: 10px;   
+} 
